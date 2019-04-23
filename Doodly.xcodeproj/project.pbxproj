@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA1FF6A3226F6C7A00A63463 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1FF6A2226F6C7A00A63463 /* AppDelegate.swift */; };
+		CA1FF6A5226F6C7A00A63463 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1FF6A4226F6C7A00A63463 /* ViewController.swift */; };
+		CA1FF6A8226F6C7A00A63463 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA1FF6A6226F6C7A00A63463 /* Main.storyboard */; };
+		CA1FF6AB226F6C7A00A63463 /* Doodly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA1FF6A9226F6C7A00A63463 /* Doodly.xcdatamodeld */; };
+		CA1FF6AD226F6C7C00A63463 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA1FF6AC226F6C7C00A63463 /* Assets.xcassets */; };
+		CA1FF6B0226F6C7C00A63463 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA1FF6AE226F6C7C00A63463 /* LaunchScreen.storyboard */; };
+		CA1FF6BB226F6C7C00A63463 /* DoodlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1FF6BA226F6C7C00A63463 /* DoodlyTests.swift */; };
+		CA1FF6C6226F6C7C00A63463 /* DoodlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1FF6C5226F6C7C00A63463 /* DoodlyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA1FF6B7226F6C7C00A63463 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA1FF697226F6C7A00A63463 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA1FF69E226F6C7A00A63463;
+			remoteInfo = Doodly;
+		};
+		CA1FF6C2226F6C7C00A63463 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA1FF697226F6C7A00A63463 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA1FF69E226F6C7A00A63463;
+			remoteInfo = Doodly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA1FF69F226F6C7A00A63463 /* Doodly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doodly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1FF6A2226F6C7A00A63463 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA1FF6A4226F6C7A00A63463 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA1FF6A7226F6C7A00A63463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA1FF6AA226F6C7A00A63463 /* Doodly.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Doodly.xcdatamodel; sourceTree = "<group>"; };
+		CA1FF6AC226F6C7C00A63463 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA1FF6AF226F6C7C00A63463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA1FF6B1226F6C7C00A63463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA1FF6B6226F6C7C00A63463 /* DoodlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoodlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1FF6BA226F6C7C00A63463 /* DoodlyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodlyTests.swift; sourceTree = "<group>"; };
+		CA1FF6BC226F6C7C00A63463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA1FF6C1226F6C7C00A63463 /* DoodlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoodlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1FF6C5226F6C7C00A63463 /* DoodlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodlyUITests.swift; sourceTree = "<group>"; };
+		CA1FF6C7226F6C7C00A63463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA1FF69C226F6C7A00A63463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1FF6B3226F6C7C00A63463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1FF6BE226F6C7C00A63463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA1FF696226F6C7A00A63463 = {
+			isa = PBXGroup;
+			children = (
+				CA1FF6A1226F6C7A00A63463 /* Doodly */,
+				CA1FF6B9226F6C7C00A63463 /* DoodlyTests */,
+				CA1FF6C4226F6C7C00A63463 /* DoodlyUITests */,
+				CA1FF6A0226F6C7A00A63463 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA1FF6A0226F6C7A00A63463 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA1FF69F226F6C7A00A63463 /* Doodly.app */,
+				CA1FF6B6226F6C7C00A63463 /* DoodlyTests.xctest */,
+				CA1FF6C1226F6C7C00A63463 /* DoodlyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA1FF6A1226F6C7A00A63463 /* Doodly */ = {
+			isa = PBXGroup;
+			children = (
+				CA1FF6A2226F6C7A00A63463 /* AppDelegate.swift */,
+				CA1FF6A4226F6C7A00A63463 /* ViewController.swift */,
+				CA1FF6A6226F6C7A00A63463 /* Main.storyboard */,
+				CA1FF6AC226F6C7C00A63463 /* Assets.xcassets */,
+				CA1FF6AE226F6C7C00A63463 /* LaunchScreen.storyboard */,
+				CA1FF6B1226F6C7C00A63463 /* Info.plist */,
+				CA1FF6A9226F6C7A00A63463 /* Doodly.xcdatamodeld */,
+			);
+			path = Doodly;
+			sourceTree = "<group>";
+		};
+		CA1FF6B9226F6C7C00A63463 /* DoodlyTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA1FF6BA226F6C7C00A63463 /* DoodlyTests.swift */,
+				CA1FF6BC226F6C7C00A63463 /* Info.plist */,
+			);
+			path = DoodlyTests;
+			sourceTree = "<group>";
+		};
+		CA1FF6C4226F6C7C00A63463 /* DoodlyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA1FF6C5226F6C7C00A63463 /* DoodlyUITests.swift */,
+				CA1FF6C7226F6C7C00A63463 /* Info.plist */,
+			);
+			path = DoodlyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA1FF69E226F6C7A00A63463 /* Doodly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA1FF6CA226F6C7C00A63463 /* Build configuration list for PBXNativeTarget "Doodly" */;
+			buildPhases = (
+				CA1FF69B226F6C7A00A63463 /* Sources */,
+				CA1FF69C226F6C7A00A63463 /* Frameworks */,
+				CA1FF69D226F6C7A00A63463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Doodly;
+			productName = Doodly;
+			productReference = CA1FF69F226F6C7A00A63463 /* Doodly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA1FF6B5226F6C7C00A63463 /* DoodlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA1FF6CD226F6C7C00A63463 /* Build configuration list for PBXNativeTarget "DoodlyTests" */;
+			buildPhases = (
+				CA1FF6B2226F6C7C00A63463 /* Sources */,
+				CA1FF6B3226F6C7C00A63463 /* Frameworks */,
+				CA1FF6B4226F6C7C00A63463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA1FF6B8226F6C7C00A63463 /* PBXTargetDependency */,
+			);
+			name = DoodlyTests;
+			productName = DoodlyTests;
+			productReference = CA1FF6B6226F6C7C00A63463 /* DoodlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA1FF6C0226F6C7C00A63463 /* DoodlyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA1FF6D0226F6C7C00A63463 /* Build configuration list for PBXNativeTarget "DoodlyUITests" */;
+			buildPhases = (
+				CA1FF6BD226F6C7C00A63463 /* Sources */,
+				CA1FF6BE226F6C7C00A63463 /* Frameworks */,
+				CA1FF6BF226F6C7C00A63463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA1FF6C3226F6C7C00A63463 /* PBXTargetDependency */,
+			);
+			name = DoodlyUITests;
+			productName = DoodlyUITests;
+			productReference = CA1FF6C1226F6C7C00A63463 /* DoodlyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA1FF697226F6C7A00A63463 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "ShreeThaanu RK";
+				TargetAttributes = {
+					CA1FF69E226F6C7A00A63463 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CA1FF6B5226F6C7C00A63463 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CA1FF69E226F6C7A00A63463;
+					};
+					CA1FF6C0226F6C7C00A63463 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CA1FF69E226F6C7A00A63463;
+					};
+				};
+			};
+			buildConfigurationList = CA1FF69A226F6C7A00A63463 /* Build configuration list for PBXProject "Doodly" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA1FF696226F6C7A00A63463;
+			productRefGroup = CA1FF6A0226F6C7A00A63463 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA1FF69E226F6C7A00A63463 /* Doodly */,
+				CA1FF6B5226F6C7C00A63463 /* DoodlyTests */,
+				CA1FF6C0226F6C7C00A63463 /* DoodlyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA1FF69D226F6C7A00A63463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1FF6B0226F6C7C00A63463 /* LaunchScreen.storyboard in Resources */,
+				CA1FF6AD226F6C7C00A63463 /* Assets.xcassets in Resources */,
+				CA1FF6A8226F6C7A00A63463 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1FF6B4226F6C7C00A63463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1FF6BF226F6C7C00A63463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA1FF69B226F6C7A00A63463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1FF6A5226F6C7A00A63463 /* ViewController.swift in Sources */,
+				CA1FF6AB226F6C7A00A63463 /* Doodly.xcdatamodeld in Sources */,
+				CA1FF6A3226F6C7A00A63463 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1FF6B2226F6C7C00A63463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1FF6BB226F6C7C00A63463 /* DoodlyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1FF6BD226F6C7C00A63463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1FF6C6226F6C7C00A63463 /* DoodlyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA1FF6B8226F6C7C00A63463 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA1FF69E226F6C7A00A63463 /* Doodly */;
+			targetProxy = CA1FF6B7226F6C7C00A63463 /* PBXContainerItemProxy */;
+		};
+		CA1FF6C3226F6C7C00A63463 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA1FF69E226F6C7A00A63463 /* Doodly */;
+			targetProxy = CA1FF6C2226F6C7C00A63463 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA1FF6A6226F6C7A00A63463 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA1FF6A7226F6C7A00A63463 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA1FF6AE226F6C7C00A63463 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA1FF6AF226F6C7C00A63463 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA1FF6C8226F6C7C00A63463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA1FF6C9226F6C7C00A63463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA1FF6CB226F6C7C00A63463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2NB997JDV;
+				INFOPLIST_FILE = Doodly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.strlabz.Doodly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CA1FF6CC226F6C7C00A63463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2NB997JDV;
+				INFOPLIST_FILE = Doodly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.strlabz.Doodly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CA1FF6CE226F6C7C00A63463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2NB997JDV;
+				INFOPLIST_FILE = DoodlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.strlabz.DoodlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Doodly.app/Doodly";
+			};
+			name = Debug;
+		};
+		CA1FF6CF226F6C7C00A63463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2NB997JDV;
+				INFOPLIST_FILE = DoodlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.strlabz.DoodlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Doodly.app/Doodly";
+			};
+			name = Release;
+		};
+		CA1FF6D1226F6C7C00A63463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2NB997JDV;
+				INFOPLIST_FILE = DoodlyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.strlabz.DoodlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Doodly;
+			};
+			name = Debug;
+		};
+		CA1FF6D2226F6C7C00A63463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2NB997JDV;
+				INFOPLIST_FILE = DoodlyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.strlabz.DoodlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Doodly;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA1FF69A226F6C7A00A63463 /* Build configuration list for PBXProject "Doodly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA1FF6C8226F6C7C00A63463 /* Debug */,
+				CA1FF6C9226F6C7C00A63463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA1FF6CA226F6C7C00A63463 /* Build configuration list for PBXNativeTarget "Doodly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA1FF6CB226F6C7C00A63463 /* Debug */,
+				CA1FF6CC226F6C7C00A63463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA1FF6CD226F6C7C00A63463 /* Build configuration list for PBXNativeTarget "DoodlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA1FF6CE226F6C7C00A63463 /* Debug */,
+				CA1FF6CF226F6C7C00A63463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA1FF6D0226F6C7C00A63463 /* Build configuration list for PBXNativeTarget "DoodlyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA1FF6D1226F6C7C00A63463 /* Debug */,
+				CA1FF6D2226F6C7C00A63463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CA1FF6A9226F6C7A00A63463 /* Doodly.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CA1FF6AA226F6C7A00A63463 /* Doodly.xcdatamodel */,
+			);
+			currentVersion = CA1FF6AA226F6C7A00A63463 /* Doodly.xcdatamodel */;
+			path = Doodly.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CA1FF697226F6C7A00A63463 /* Project object */;
+}
